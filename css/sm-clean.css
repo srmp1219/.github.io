@@ -9,14 +9,14 @@
 .sm-clean a, .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active {
     padding: 13px 20px;
     /* make room for the toggle button (sub indicator) */
-    padding-right: 58px;
-    font-size: 18px;
+    padding-right: 20px;
+    font-size: 20px;
     font-weight: normal;
     line-height: 17px;
     text-decoration: none;
 }
 .sm-clean a.current {
-    color: #d23600;
+    color: #5C408B;
 }
 .sm-clean a.disabled {
     color: #bbbbbb;

@@ -5,13 +5,13 @@ html
 
 body
 {
-    background-color: #5C408B;
-    font-family: 'Montserrat',"HYXiYuanJ",sans-serif, Arial;
+    background-color: #C1B4FB;
+    font-family: 'Montserrat',"microsoft YaHei",sans-serif, Arial;
     font-size: 20px; 	
     line-height: 35px;
     font-weight: 400;	
     color: #191919;
-    letter-spacing: -1px;
+    letter-spacing: -0.5px;
 }
 
 body a
@@ -249,9 +249,16 @@ ul.slides li img
 .page-desc
 {
     width: 925px;
-    float: ;
+    float: right;
     font-size: 24px;
     line-height: 40px;
+    text-align: right;
+    margin-top: -20px;
+
+}
+.page-desc a
+{
+    background-color: #C1B4FB; font-style:italic ; font-weight: bold;
 
 }
 
@@ -276,7 +283,7 @@ ul.slides li img
 
 .blog-item-holder:hover
 {
-    background-color: #FAF6F6;
+    background-color: #f9f6fa;
 }
 
 .blog-item-holder:hover .entry-title a
@@ -286,7 +293,7 @@ ul.slides li img
 
 .blog-item-holder.sticky
 { 
-    background-color: #FAF6F6;
+    background-color: #f8f6fa;
 }
 
 .blog-holder .cat-links, .blog-holder .entry-date, .blog-holder .author, .blog-holder .entry-title
@@ -304,7 +311,7 @@ ul.slides li img
 .blog-holder .cat-links
 {
     min-width: 200px;
-    padding-left: 20px;
+    
 }
 
 .blog-holder .cat-links li
@@ -316,9 +323,11 @@ ul.slides li img
 {
     color: #5C408B;
     border: 3px solid #5C408B;
+
     text-decoration: none;
     padding: 10px;
-    font-weight: 700;
+    font-weight: 300;
+
 }
 
 .blog-holder .entry-date
@@ -330,16 +339,25 @@ ul.slides li img
 
 .blog-holder .author 
 {
-    width: 200px;
-    color: #adadad;    
-    font-size: 24px;
+    max-width: 500px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.blog-holder .author img 
+{
+    max-width: 500px;
+    width: 100%;
+
+
 }
 
 .blog-holder .entry-title
 {
-    max-width: 700px;
+    max-width: 540px;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
+    margin-left: 5%;
 }
 
 .blog-holder .entry-title a
@@ -349,9 +367,35 @@ ul.slides li img
     -ms-transition: color 0.5s ease;
     -o-transition: color 0.5s ease;
     transition: color 0.5s ease;
-    font-size: 34px;
+    font-size: 32px;
     line-height: 48px;
 }
+.blog-holder .entry-title p
+{    
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #3E3E3E;
+
+}
+.blog-holder .entry-title b
+{    
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+    margin-top: 10px;
+    background-color: #C1B4FB ; font-weight: 700; font-style:italic; font-size: 22px;
+
+
+}
+
+
 
 body.blog .more-posts
 {
