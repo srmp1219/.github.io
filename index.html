@@ -1,336 +1,298 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <title>Portfolio</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Template by Dry Themes" />
-        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
-        <meta name="author" content="DryThemes" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lori-Portfolio</title>
 
-        <link rel="shortcut icon" href="images/favicon.png" />    
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700' rel='stylesheet' type='text/css'>		
-        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
-        <link rel="stylesheet" type="text/css"  href='css/common.css' />
-        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
-        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
-        <link rel="stylesheet" type="text/css"  href='css/prettyPhoto.css' />        
-        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />        
-        <link rel="stylesheet" type="text/css"  href='style.css' />
-
-        <!--[if lt IE 9]>
-                <script src="js/html5shiv.js"></script>                
-                <script src="js/respond.min.js"></script>                
-        <![endif]-->
-
-    </head>
-    <body class="page">
-
-        <table class="doc-loader">
-            <tbody>
-                <tr>
-                    <td>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/animate.css">
 
 
-                        <a>请稍等，正在加载······</a>                    
-                    </td>
-                </tr>
-            </tbody>
-        </table>   
-
-        <div class="header-search">
-            <div class="content-1330 center-relative">
-                <form class="search-form">
-                    <label>		
-                        <input type="search" class="search-field" placeholder="Search ..." value="" name="s" title="Search for:">                        
-                    </label>    
-                </form>               
-            </div>
+</head>
+<body style="cursor: url(images/111.svg),auto;"></body>
+<body>
+<!--导航开始-->
+<nav class="navbar navbar-default navbar-fixed-top tq-navbar-default">
+    <div class="container">
+        <!--小屏幕logo和栏目按钮-->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="border-color: transparent;">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">Lori</a>
         </div>
 
+        <!--导航-->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#bbs">Portfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#About">About Me</a></li>
 
-        <div class="body-wrapper">           
-            <div class="content-1330 header-holder center-relative">
-                <div class="header-logo left">
+            </ul>
+        </div>
+    </div>
+</nav>
 
-                    <h1 class="site-title">
-                        <a href="">
-                            <img src="images/tou.jpeg"  style="width: 150px;height: 150px;">
-                        </a>               
-                    </h1>
+<!--home开始-->
+<section id="home">
+    <div class="musk">
+        <div class="container">
+            <div><img src="images/Me.png" class="img-responsive" alt="" style=" height: 160px;margin-top: 0px; margin-bottom: 16px;margin-left: 0px;"></div>
+            <div class="row">
+                <div class="col-md-6" >
+                    <p style="font-size: 32px;" >Hi! 我是<a1>孙瑞</a1>。</p>
+                    <p style="font-size: 32px;" >职业目标是成为一名<a1>UX Designer</a1>。</p>
+                </div>
+                <div class="col-md-6">
 
+                    <p>上海交通大学工业设计工程研究生二年级在读中，本科毕业于天津大学工业设计专业。</p>
+                    <p>喜欢学习新事物，喜欢拿铁，喜欢神秘学，喜欢每天都很顺利。</p>
+                    <p>为了能做喜欢的事，就不能只做喜欢的事。</p>
                 </div>
 
-                <div class="header-menu right">
-                    <nav id="header-main-menu" class="left">
-                        <ul class="main-menu sm sm-clean">
-                            <li>
-                                <a href="index.html">Home</a>
-                            </li>
-                            <!--<li>
-                                <a href="#content">About</a>
-                            </li>-->
-                            <li>
-                                <a href="#Portfolio">Portfolio</a>
-                            </li>
-     
-                            <li>
-                                <a href="#Contact">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
 
-                    <div class="clear"></div>							
-                </div>
-                <div class="clear"></div>
             </div>
 
-            <div id="content" class="site-content">
-                <article>
-                    <div class="content-1330 center-relative">
+            <!-- <div class="row">
+                <div class="col-md-12">
+                    <img src="images/MTZ_HeaderTape4.jpg" class="img-responsive" alt="">
+                </div>
+            </div> -->
 
-                        <div class="page-desc">
-                            <p>你好！ 我是<a>孙瑞 </a>，职业目标是成为一名<a>交互设计师 </a>。</p>
-                            <p>上海交通大学工业设计工程研究生二年级在读中，本科毕业于天津大学工业设计专业。</p>
-                           <p>喜欢学习新事物，喜欢拿铁，喜欢神秘学，喜欢每天都很顺利。</p>
-                           <p>为了能做喜欢的事，就不能只做喜欢的事。</p>
-                           
-                       </div>
-                     <div id="Portfolio" class="one_half" style="margin-left: 5%;">
+        </div>
+    </div>
+</section>
+<!--home结束-->
 
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p> 
-                        <p>&nbsp;</p>
+<section id="bbs">
+    <div class="musk">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 style="font-size: 24px;">希望设计能够成为快乐的传递者</h1>
+                    <p>下面展示的内容为近两年内的设计作品。</p>
+                </div>
 
+            </div>
+        </div>
+        <div class="container">
+            <hr style="border-top: 1px solid #111;">
+            <div class="row wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="1">
+                <div class="col-md-4" >
+                    <h1>SAP Stories</h1>
+                    <p><br>——Short-form Videos for Business Insights</p>
+                    <p>We wanted to use short videos as a communication medium to deliver information more efficiently and vividly for business purposes.
+                        I worked on two of these projects, one for the Data Change Insight project with SAP Analytics Cloud to design a data change video to be pushed to customers, and the other for SAP Business Network to design a dynamic data display banner for the official website.</p>
+                    <br>
+                    <h2>“Business insights anywhere, anyway, anytime.”</h2>
+                    <br>
+                    <p2>* Figma Html</p2>
+                    <br>
+                    <br>
+                        <div  src="" class="buttons" style="float: left" >
+                        <a href="SAP.html"><button class="btn-hover color-1">→</button> </a>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-6">
+                    <img src="images/SAP.gif" class="img-responsive" alt="" style="width: 1000px;">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <hr style="border-top: 1px solid #111;">
+            <div class="row wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="1">
+                <div class="col-md-4">
+                    <h1>《Don't Starve: Newhome》</h1>
+                    <p><br>——游戏交互设计</p> 
+                    <p>去年7月到12月，我在盛趣游戏策划中心实习，担任饥荒手游项目组的UE交互设计师，在那里我与策划、UI和程序合作，学习并完成游戏交互设计师的工作内容，初步体验了游戏这一充满热情、快乐的行业。</p>
+                    <br>
+                    <h2>“游戏是人和快乐的交点”</h2>
+                    <br>
+                    <p2>* Axure  FGUI  Unity3D</p2>
+                    <br>
+                    <div  src="" class="buttons" style="float: left" >
+                       <a href="Game.html"><button class="btn-hover color-1">→</button> </a>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-6">
+                    <img src="images/g1.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <hr style="border-top: 1px solid #111;">
+            <div class="row wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="1">
+                <div class="col-md-4">
+                    <h1>基于成长潜力和大学生情绪调节的大学生求职产品设计</h1>
+                    <p><br>在大学生求职的过程中，实际上是一次从学生向社会人转变的自我认知，自我展现，自我提升的过程。因此本课题就大学生所关心的企业招人需求及求职准备进行深入地综合性设计调研和概念化设计。</p>
+                    <br>
+                    <h2>“我们可以让求职变成一段成长故事吗？” </h2>
+                    <br>
+                    <p2>* Figma </p2> <p2 >* 与蚂蚁金服国际设计团队合作</p2>
+                    <br>
                     
-                        <span style="background-color: #C1B4FB; font-style:italic ; font-weight: bold;">
-                        希望设计能够成为快乐的传递者。</span> <br/>
-                        下面展示的内容为近两年内的设计作品。
-
-
+                    <div  src="" class="buttons" style="float: left" >
+                        <a href="Job.html"><button class="btn-hover color-1">→</button> </a>
                      </div>
 
-
-                        <div class="clear"></div>
-
-
-                        <div  class="blog-holder block center-relative content-1330">
-
-                            <div class="post-border center-relative block"></div>
-
-                            <article class="relative blog-item-holder center-relative">
-                                <h2 class="entry-title">
-                                    <a href="single.html">游戏交互设计实习</a>
-                                    <p>&nbsp;</p>
-                                    <p>去年7月到12月，我在盛趣游戏策划中心实习，担任饥荒手游项目组的 UE 交互设计师，在那里我与策划、UI和程序合作，学习并完成游戏交互设计师的工作内容，初步体验了游戏这一充满热情、快乐的行业。</p>
-
-                                    <b>&nbsp;&nbsp;&nbsp;“游戏是人和快乐的交点”&nbsp;&nbsp;&nbsp;&nbsp; </b>
-                                    <p style="font-size: 16px;color: #adadad;">
-                                        
-                                       * Axure&nbsp;&nbsp;FGUI&nbsp;&nbsp;Unity3D&nbsp;&nbsp;Figma</p>
-
-                                    <div class="cat-links">
-                                        <ul>
-                                            <li>
-                                                <a href="https://www.figma.com/proto/ko0EN6xyfX92JAwIoOaKp2/Untitled?page-id=0%3A1&node-id=0%3A1&viewport=241%2C48%2C1.31&scaling=scale-down-width" target="_blank" style="font-size: 20px;">More&nbsp;&nbsp;<span>→</span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </h2>
-                                
-                                <div class="author" style="margin-left: 10%;">
-                                    <a href="https://www.figma.com/proto/ko0EN6xyfX92JAwIoOaKp2/Untitled?page-id=0%3A1&node-id=0%3A1&viewport=241%2C48%2C1.31&scaling=scale-down-width" target="_blank">
-                                        <img src="demo-images/g1.jpg" alt="">
-                                    </a>
-                                </div>
-
-                                <div class="clear"></div>
-                            </article>
-                        </div>
-                        <div class="blog-holder block center-relative content-1330">
-
-                            <div class="post-border center-relative block"></div>
-
-                            <article class="relative blog-item-holder center-relative">
-                                <h2 class="entry-title">
-                                    <a href="single.html">基于成长潜力和大学生情绪调节的大学生求职产品设计</a>
-                                    <p>&nbsp;</p>
-                                    <p>在大学生求职的过程中，实际上是一次从学生向社会人转变的自我认知，自我展现，自我提升的过程。因此本课题就大学生所关心的企业招人需求及求职准备进行深入地综合性设计调研和概念化设计。</p>
-                                    <p>&nbsp;</p> 
-
-                                    <b>&nbsp;&nbsp;&nbsp;“我们可以让求职变成一段成长故事吗？”&nbsp;&nbsp;&nbsp;&nbsp; </b>
-                                    <p>&nbsp;</p>
-                                    <p style="font-size: 16px;color: #adadad;">
-                                        * Figma </p>
-                                    <p style="font-size: 16px;color: #adadad;">
-                                        * 与蚂蚁金服国际设计团队合作 </p>
-                                    <div class="cat-links">
-                                        <ul>
-                                            <li>
-                                                <a href="demo-images/职闯APP设计.pdf" target=" _blank"  style="font-size: 20px;">More&nbsp;&nbsp;<span>→</span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </h2>
-
-                                
-                                <div class="author" style="margin-left: 10%;">
-                                    <a>
-                                        <img src="demo-images/能力测试.gif" alt="" style="width:240px;height:auto;object-fit:cover;object-position:50% 50%;margin-right: 5px;margin-left: 5px;">
-                                        <img src="demo-images/职业体验.gif" alt="" style="width:240px;height:auto;object-fit:cover;object-position:50% 50%">
-
-                                    </a>
-                                </div>
-
-                                <div class="clear"></div>
-                            </article>
-                        </div>
-                        
-                        <div class="blog-holder block center-relative content-1330">
-
-                            <div class="post-border center-relative block"></div>
-
-                            <article class="relative blog-item-holder center-relative">
-                                <h2 class="entry-title">
-                                    <a href="single.html">设计师在线workshop平台</a>
-                                    <p>&nbsp;</p>
-                                    <p>一个面向对跨文化交流的大学生，进行海内外思想交换和自我提升的全球线上Workshop平台。为需要进行项目交流而被地域空间限制的用户们打造，平台可以自由地发起、浏览、寻找感兴趣的线上workshop，与海外同学朋友进行合作。</p>
-
-                                    <b>&nbsp;&nbsp;&nbsp;“帮助全世界的设计爱好者交流”&nbsp;&nbsp;&nbsp;&nbsp; </b>
-
-                                    <p style="font-size: 16px;color: #adadad;">
-                                        * Bootstrap(HTML CSS)&nbsp;&nbsp;Figma </p>
-                                    <p style="font-size: 16px;color: #adadad;">
-                                        * 与小红书用户体验团队合作 </p>                                                                                
-                                    <div class="cat-links">
-                                        <ul>
-                                            <li>
-                                                <a href="http://47.97.113.99/it2020/RoundUp/" target=" _blank" style="font-size: 20px;">More&nbsp;&nbsp;<span>→</span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </h2>
-
-                                
-                                <div class="author" style="margin-left: 10%;">
-                                    <video src="images/ROUNDUP概念视频.mp4" height="auto" max-width="500" width="100%" preloader="auto" poster="demo-images/0-LOGO.gif" controls>
-                                    </video>
-                                    <p style="font-size: 16px;float: right;color:#adadad;">点击播放</p>
-
-                                </div>
-
-                                <div class="clear"></div>
-                            </article>
-                        </div>
-                        
-                        <div class="blog-holder block center-relative content-1330">
-
-                            <div class="post-border center-relative block"></div>
-
-                            <article class="relative blog-item-holder center-relative">
-                                <h2 class="entry-title">
-                                    <a href="single.html">投影交互装置</a>
-                                    <p>&nbsp;</p>
-                                    <p>使用 python 脚本和 C# 脚本的组合来创建一个带有手部跟踪和手势识别的 Unity 应用程序。使用 Python脚本来检测手部运动和相对手势，并通过Unity3D系统平台开发设计投影交互互动内容。</p>
-                                    <p>&nbsp;</p>
-                                    <p style="font-size: 16px;color: #adadad;">
-                                        * Unity3D&nbsp;&nbsp;Python </p>
-                                                                    
-                                    <div class="cat-links">
-                                        <ul>
-                                            <li>
-                                                <a href="Flower.html" style="font-size: 20px;">More&nbsp;&nbsp;<span>→</span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </h2>
-                                
-                                <div class="author" style="margin-left: 10%;">
-
-                                        <img src="demo-images/p-02.png" alt="">
-
-                                </div>
-
-                                <div class="clear"></div>
-
-                            </article>
-
-                            <div class="post-border center-relative block"></div>
-                            <div class="block content-1330 center-relative center-text top-50 bottom-50">
-                                <a href="Portfolio.html" target="_blank" class="more-posts" >More&nbsp;&nbsp;<span>→</span></a>
-                            </div>
-                        </div>
-
-
-                        <div class="clear"></div>
-                        <div id="Contact">
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <div class="one_half">
-                            <p>
-                                <strong>Learning...</strong>
-                                <br>
-                            </p>
-                            <p>&nbsp;</p>
-                            <p>如果您有兴趣或任何建议的话，欢迎联系我！感谢！</p>
-                            <p>&nbsp;</p>
-                            <div class="text-left">
-                                <a href="images/孙瑞.pdf" target="_self" class="button ">Download CV</a>
-                            </div>  
-                        </div>
-
-                        <div class="one_half last">
-                            <p>
-                                <br>
-                                <strong>Phone Number: </strong> 15822253306 <br>
-                                <strong>WeChat: </strong> SRMP1219 <br>
-                                <strong>Email: </strong> srmp1219@sjtu.edu.cn <br>
-                                <strong>Instagram: </strong> srmp1219 <p></p>
-                            </p>
-                            <p>&nbsp;</p>                            
-                      
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    </div>
-                </article>
-            </div>
-
-            <!--Footer-->
-            <footer class="footer">
-                <div class="content-1330 center-relative">			
-                    <ul>
-                        <li class="left-footer-content">
-                            © 2022 麻撒吉           
-                        </li>
-
-                    </ul>
                 </div>
-            </footer>
-
-            <!-- End .body-border -->
+                <div class="col-md-2"></div>
+                <div class="col-md-6">
+                    <img src="images/封面.png" class="img-responsive" alt="">
+                </div>
+            </div>
         </div>
 
+        <div class="container"  >
+            <hr style="border-top: 1px solid #111;">
+            <div class="row wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="1">
+                <div class="col-md-4">
+                    <h1>2021年第十届中国花博会投影交互装置</h1>
+                    <p><br>参与上海市中国花博会百花馆交互沉浸项目设计和布置，负责技术及视觉效果的呈现。</p>
+
+                    <br>
+                    <p2>* Unity3D  Python</p2>
+                    <br>
+                    <br>
+                    <div  src="" class="buttons" style="float: left" >
+                        <a href="Flower.html"><button class="btn-hover color-1">→</button> </a>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-6" >
+                    <img src="images/F01.gif" class="img-responsive" alt="">
+                    <br>
+                    <img src="images/F02.gif" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <hr style="border-top: 1px solid #111;">
+            <div class="row wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="1">
+                <div class="col-md-4">
+                    <h1>设计师在线workshop平台</h1>
+                    <p><br>一个面向对跨文化交流的大学生，进行海内外思想交换和自我提升的全球线上Workshop平台。为需要进行项目交流而被地域空间限制的用户们打造，平台可以自由地发起、浏览、寻找感兴趣的线上workshop，与海外同学朋友进行合作。</p>
+                    <br>
+                    <h2 >“帮助全世界的设计爱好者交流”</h2>
+                    <br>
+                    <p2>* HTML/CSS  Figma </p2><p2>
+                        * 与小红书用户体验团队合作</p2>
+                    <br>
+                    <div  src="" class="buttons" style="float: left" >
+                        <a href="http://47.97.113.99/it2020/RoundUp/" target=" _blank"><button class="btn-hover color-1">→</button> </a>
+                     </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-6">
+                    <img src="images/0-LOGO.gif" class="img-responsive" alt="">
+                </div>
+            </div>
+            <hr style="border-bottom: 1px solid #111;">
+        </div>
+
+    </div>
+</section>
 
 
-        <!--Load JavaScript-->
-        <script src="js/jquery.js"></script>			                                       
-        <script src='js/jquery.fitvids.js'></script>
-        <script src='js/jquery.smartmenus.min.js'></script>        
-        <script src='js/imagesloaded.pkgd.js'></script>        
-        <script src='js/isotope.pkgd.js'></script>        
-        <script src='js/jquery.carouFredSel-6.0.0-packed.js'></script>
-        <script src='js/jquery.mousewheel.min.js'></script>
-        <script src='js/jquery.touchSwipe.min.js'></script>
-        <script src='js/jquery.easing.1.3.js'></script>
-        <script src='js/jquery.prettyPhoto.js'></script>        
-        <script src='js/jquery.ba-throttle-debounce.min.js'></script>                
-        <script src='js/jquery.nicescroll.min.js'></script>
-        <script src='js/main.js'></script>
-    </body>
+<section id="blog">
+    <div class="musk">
+        <div class="col-md-12" style="margin-left: 12px;">
+
+            <h1>Blog</h1>
+        </div>
+        <div class="container">
+            <div class="row wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="1">
+                <div class="col-md-4" >
+                    <hr style="border-top: 1px solid #111;">
+                    <p>辅助设计师学习AI的工具研究</p>
+                    <h1>设计师 with AI</h1>
+                    <div src="" class="buttons" style="float: left" >
+                        <a href="AI.html" ><button class="btn-hover color-1">→</button> </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <hr style="border-top: 1px solid #111;">
+                    <p>游戏交互分析</p>
+                    <h1>Hades 哈迪斯游戏体验报告</h1>
+                    <div src="" class="buttons" style="float: left" >
+                        <a href="images/Hades.pdf"  target=" _blank"><button class="btn-hover color-1">→</button> </a>
+                    </div>
+                </div>
+                <div class="col-md-4" >
+                    <hr style="border-top: 1px solid #111;">
+                    <p>人因工学与应用研究</p>
+                    <h1>AR智慧城市数据信息展示的有效性测试</h1>
+                    <div src="" class="buttons" style="float: left" >
+                        <a href="images/人因.pdf"  target=" _blank"><button class="btn-hover color-1">→</button> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="bbs">
+    <div class="musk">
+        <div class="container">
+            <!-- <hr style="border-top: 1px solid #111;"> -->
+            <div class="row wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="1" style="margin-top: 32px">
+                <div class="col-md-6">
+                    <h1>如果您有兴趣或任何建议，</h1><h1>欢迎联系我！</h1>
+
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <br>
+                        <strong>Phone Number: </strong> 15822253306 <br>
+                        <strong>WeChat: </strong> SRMP1219 <br>
+                        <strong>Email: </strong> srmp1219@sjtu.edu.cn <br>
+                        <strong>Instagram: </strong> srmp1219 <p></p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="col-md-3" style="    margin-top: 80px;
+    margin-bottom: 8px;">			
+            <p style="margin-left: 12px; font-size: 12px;">
+                © 2022 麻撒吉           
+            </p>
+    </div>
+</footer>
+
+
+
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/singlepagenav.jquery.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    $(function () {
+        // 大屏导航跳转参数
+        $('.nav').singlePageNav({
+            offset:70
+        });
+        // 小屏导航跳转参数
+        $('.navbar-collapse a').click(function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+        new WOW().init();
+    })
+</script>
+</body>
 </html>

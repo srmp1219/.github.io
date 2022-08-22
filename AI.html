@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lori-Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body style="cursor: url(images/111.svg),auto;"></body>
+<!--导航开始-->
+
+<nav class="navbar navbar-default navbar-fixed-top tq-navbar-default">
+    <div class="container">
+        <!--小屏幕logo和栏目按钮-->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="border-color: transparent;">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Lori</a>
+        </div>
+
+        <!--导航-->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#blog">Blog</a></li>
+                <li><a href="#About">About Me</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--home开始-->
+<section id="home" >
+    <div class="musk">
+        <div class="container" >
+            <div class="row">
+                <div class="col-md-12" style="margin-bottom: 40px">
+                    <h1>设计师学习AI工具箱</h1>
+                    <p></p>
+                    <br><br>
+                    <h1>正在更新中。。。</h1>
+                </div>
+            
+                <!-- <div class="col-md-6">
+                    <p>参与上海市中国花博会百花馆交互沉浸项目设计和布置，负责技术及视觉效果的呈现。
+                        视觉方面使用Unity3D粒子系统模拟烟花的绽放，制作花朵素材的运动效果。
+                        技术方面使用Python和Unity3D进行信息传输，利用摄像头识别实现装置的控制和触发。 </p>
+                    <p></p>
+                    <p>角色：设计&开发</p>
+                    <p>时间：2021.5-2021.6</p>
+                    <p>工具：Unity3D Python</p>
+
+                </div> -->
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--home结束-->
+
+
+
+
+
+<footer class="footer">
+    <div class="col-md-3" style="    margin-top: 80px;
+    margin-bottom: 8px;">			
+            <p style="margin-left: 12px; font-size: 12px;">
+                © 2022 麻撒吉           
+            </p>
+    </div>
+</footer>
+
+
+
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/singlepagenav.jquery.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    $(function () {
+        // 大屏导航跳转参数
+        $('.nav').singlePageNav({
+            offset:70
+        });
+        // 小屏导航跳转参数
+        $('.navbar-collapse a').click(function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+        new WOW().init();
+    })
+</script>
+</body>
+</html>
