@@ -10,26 +10,14 @@ body{
     cursor:url(../images/head.png),auto;
 } */
 
-/* button {
+button {
     height: 40px;
     width: 40px;
     border-radius: 20px;
-    background: #111111;
-    border-style: hidden;
-    color: #fff;
-    
-   } */
-
-.buttons {
-
-    text-align: center;
-    margin: 0;
 }
 
+
 .btn-hover {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px ;
     font-size: 24px;
     color: #fff;
     cursor: pointer;
