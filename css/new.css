@@ -10,15 +10,13 @@ body{
     cursor:url(../images/head.png),auto;
 } */
 
-button {
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-}
 
 
 .btn-hover {
-    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    font-size: 20px;
     color: #fff;
     cursor: pointer;
     margin-top: 20px;
@@ -26,10 +24,6 @@ button {
     text-align:center;
     border: none;
     background-size: 300% 100%;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
 }
 
 .btn-hover:hover {
