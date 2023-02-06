@@ -81,12 +81,13 @@ color: black;
     margin-top: 16;
     font-size: 24PX;
     color: #111111;
-
+    font-weight: bold;
 }
 .navbar-default .navbar-nav>li>a{
     margin-top: 16;
     font-size: 16px;
     color: #111111;
+    font-weight: bold;
 
 }
 .navbar-default .navbar-nav>li>a:hover {
@@ -132,6 +133,12 @@ color: black;
     width: 100%;
     padding: 40px 0 60px;
 }
+#home h1{
+
+    font-weight: bold;
+    text-transform:capitalize ;
+
+}
 #home p{
     font-size: 16px;
 
@@ -166,10 +173,13 @@ margin-top: 12px;
 }
 #bbs h1{
     font-size: 32px;
+    font-weight: bold;
+    text-transform:capitalize ;
 
 }
 #bbs h2{
     font-size: 24px;
+    font-weight: bold;
 
 }
 #bbs p{
@@ -252,6 +262,8 @@ margin-top: 12px;
     font-weight: bold;
 }#blog h1{
     font-size: 32px;
+    font-weight: 600;
+    text-transform:capitalize ;
 
 }
 #blog p{
